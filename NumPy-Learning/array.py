@@ -39,5 +39,17 @@ print(l) # [ 0.   2.5  5.   7.5 10. ]
 x = np.ones(2, dtype=np.int64)
 print(x) #[1 1]
 
+# DAY 02: This section covers np.sort(), np.concatenate()
+
+arr=np.array([45,78,63,12,45])
+print(np.sort(arr)) #[12 45 45 63 78]
+
+print(np.sort(arr)[::-1]) #[78 63 45 45 12]
+
+one=np.array([1,2,3,4,5])
+two=np.array([6,7,8,9,10])
+
+three=np.concatenate((one,two))
+print(three) #[ 1  2  3  4  5  6  7  8  9 10] 
 
 
