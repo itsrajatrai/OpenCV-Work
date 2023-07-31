@@ -52,4 +52,15 @@ two=np.array([6,7,8,9,10])
 three=np.concatenate((one,two))
 print(three) #[ 1  2  3  4  5  6  7  8  9 10] 
 
+# np.stack
+
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+print(np.stack((a, b))) 
+
+"""
+([[1, 2, 3],
+       [4, 5, 6]]) 
+       
+"""
 
